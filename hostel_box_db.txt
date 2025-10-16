@@ -1,1 +1,11 @@
+CREATE DATABASE hostel_box;
+CREATE DATABASE hostel_box;
+
+CREATE TABLE complaints (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    student_name VARCHAR(100),
+    room_number VARCHAR(50),
+    complaint TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
 
